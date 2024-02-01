@@ -31,16 +31,18 @@ h1 h2 {
 }
 
 .header {
+    padding-left: 399px;
     background-color: #EEEFF1;
-    height: 700px;
-    margin: auto;
     position: sticky;
     top: 0;
+    height: 200px;
 }
 
-.conteiner {
+.header_text {
     padding-left: 399px;
-    height: 700px;
+    height: 500px;
+    background-color: #EEEFF1;
+    margin: auto;
 }
 
 .menu {
@@ -49,26 +51,27 @@ h1 h2 {
     padding-bottom: 151px;
 }
 
-.menu--item {
+.menu_item {
     margin-right: 42px;
     font-size: 16px;
     font-family: 'Roboto';
     text-transform: uppercase;
 }
 
-.menu--item a {
+.menu_item a {
     color: black;
 }
 
 
-.header--phrase {
+.header_text h2 {
     font-family: 'Roboto';
     font-size: 48px;
     font-weight: 500;
     margin-bottom: 30px;
+    margin-top: 0;
 }
 
-.header--description {
+.header_text p {
     width: 540px;
     height: 67px;
     font-family: 'Roboto';
@@ -78,7 +81,7 @@ h1 h2 {
 
 }
 
-.header--btn {
+.header_btn {
     display: inline-block;
     width: 225px;
     height: 65px;
@@ -86,7 +89,7 @@ h1 h2 {
     text-align: center;
     line-height: 4;
     font-size: 16px;
-    font-weight: 400; 
+    font-weight: 400;
     color: #fff;
     text-transform: uppercase;
     margin-top: 65px;
@@ -124,36 +127,36 @@ h1 h2 {
     align-items: center;
 }
 
-.project--img {
+.project_img {
     margin-right: 20px;
     margin-left: 45px;
 }
 
-.project h3 {
+.project_text h3 {
     color: #fff;
     font-size: 21px;
     font-family: 'Roboto';
     margin: 0;
 }
 
-.project p {
+.project_text p {
     font-family: 'Roboto';
     font-size: 16px;
     margin: 0;
     color: #fff;
 }
 
-.work--information {
+.work_information {
     height: 1004px;
     background-color: #EEEFF1;
 }
 
-.conteiner--information {
+.conteiner_information {
     display: flex;
     justify-content: center;
 }
 
-.work--information-text h2 {
+.work_information-text h2 {
     margin: 0;
     text-align: center;
     padding-top: 100px;
@@ -163,7 +166,7 @@ h1 h2 {
     color: black;
 }
 
-.work--information-text p {
+.work_information-text p {
     width: 540px;
     height: 67px;
     color: #727272;
@@ -174,24 +177,24 @@ h1 h2 {
     margin-bottom: 57px;
 }
 
-.work--information-video {
+.work_information-video {
     text-align: center;
 }
 
-.rights--information {
+.rights_information {
     height: 151px;
     background-color: #34547A;
 
 }
 
-.rights--information-text {
+.rights_information-text {
     display: inline-block;
     padding-top: 50px;
     padding-left: 405px;
 }
 
 
-.rights--information h3 {
+.rights_information h3 {
     color: #fff;
     margin: 0;
     font-size: 21px;
@@ -199,7 +202,7 @@ h1 h2 {
     font-weight: 500;
 }
 
-.rights--information p {
+.rights_information p {
     color: #fff;
     margin-top: 20px;
     font-size: 13px;
